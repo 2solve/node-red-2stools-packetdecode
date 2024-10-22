@@ -1,0 +1,28 @@
+<script type="text/html" data-template-name="2stools-packetdecode">
+  <div class="form-row">
+    <label for="node-input-name"><i class="fa fa-tag"></i>Name</label>
+    <input type="text" id="node-input-name" placeholder="Name" />
+  </div>
+
+  <div class="form-row">
+    <label for="node-input-offset"><i class="fa fa-tag"></i>Offset</label>
+    <input type="text" id="node-input-offset" placeholder="Offset" />
+  </div>
+</script>
+
+<script type="text/javascript">
+  RED.nodes.registerType("2stools-packetdecode", {
+    category: "function",
+    color: "#a6bbcf",
+    defaults: {
+      name: { value: "" },
+      offset: { value: "0" },
+    },
+    inputs: 1,
+    outputs: 1,
+    icon: "file.png",
+    label: function () {
+      return this.name || "2stools-packetdecode";
+    },
+  });
+</script>

@@ -1,0 +1,60 @@
+{
+  "_from": "node-red-2stools-packetdecode@0.9.26",
+  "_id": "node-red-2stools-packetdecode@0.9.26",
+  "_inBundle": false,
+  "_integrity": "sha512-JMpmOMNJolvEJVkPm3Ke8Mmz5encLy7H6uKMPDmhZ7VG7Pe1L3DWOEajPMBSBELX5DbxdiCIPQ0WbrjdhfYXfw==",
+  "_location": "/node-red-2stools-packetdecode",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "node-red-2stools-packetdecode@0.9.26",
+    "name": "node-red-2stools-packetdecode",
+    "escapedName": "node-red-2stools-packetdecode",
+    "rawSpec": "0.9.26",
+    "saveSpec": null,
+    "fetchSpec": "0.9.26"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/node-red-2stools-packetdecode/-/node-red-2stools-packetdecode-0.9.26.tgz",
+  "_shasum": "3891d58ffcb7bc27f5e15e936d371d000e61bba2",
+  "_spec": "node-red-2stools-packetdecode@0.9.26",
+  "_where": "/home/franco/.node-red",
+  "author": {
+    "name": "2Solve Engenharia e Tecnologia Ltda"
+  },
+  "bugs": {
+    "url": "https://github.com/2solve/2STools/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "2stools-daq": "^0.14.0",
+    "hex2dec": "^1.1.2",
+    "ieee-float": "^0.6.0"
+  },
+  "deprecated": false,
+  "description": "Decode string data to a respective sensor on IC",
+  "homepage": "https://github.com/2solve/2STools#readme",
+  "keywords": [
+    "node-red",
+    "2solve",
+    "2stools"
+  ],
+  "license": "ISC",
+  "main": "",
+  "name": "node-red-2stools-packetdecode",
+  "node-red": {
+    "nodes": {
+      "2stools": "2stools.js"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/2solve/2STools.git"
+  },
+  "scripts": {},
+  "version": "0.14.0"
+}
