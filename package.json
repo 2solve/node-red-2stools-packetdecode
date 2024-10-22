@@ -31,7 +31,7 @@
   },
   "bundleDependencies": false,
   "dependencies": {
-    "2stools-daq": "^0.14.0",
+    "2stools-daq": "^0.15.0",
     "hex2dec": "^1.1.2",
     "ieee-float": "^0.6.0"
   },
